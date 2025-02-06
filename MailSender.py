@@ -20,7 +20,7 @@ def enviar_email(nome, email_destino):
     corpo = f"""
     Prezado(a) Professor(a), {nome}!
     
-    Meu nome é Arthur Souza Santos, sou aluno do curso de Automação Industrial no Colégio Técnico da UFMG (COLTEC), e gostaria de manifestar meu interesse em ingressar em um projeto de iniciação científica sob sua orientação. Tenho grande interesse em ampliar meus conhecimentos na área científica e laboratorial, além de contribuir com as atividades e objetivos do seu laboratório. Estou motivado a aprender novas técnicas, colaborar nas pesquisas e desenvolver habilidades práticas que complementem minha formação acadêmica. Coloco-me à disposição para uma conversa ou entrevista, caso necessário. Agradeço desde já pela atenção e pela oportunidade.
+    Meu nome é (nome), sou aluno do curso de Automação Industrial no Colégio Técnico da UFMG (COLTEC), e gostaria de manifestar meu interesse em ingressar em um projeto de iniciação científica sob sua orientação. Tenho grande interesse em ampliar meus conhecimentos na área científica e laboratorial, além de contribuir com as atividades e objetivos do seu laboratório. Estou motivado a aprender novas técnicas, colaborar nas pesquisas e desenvolver habilidades práticas que complementem minha formação acadêmica. Coloco-me à disposição para uma conversa ou entrevista, caso necessário. Agradeço desde já pela atenção e pela oportunidade.
 
 Atenciosamente,
 Arthur Souza Santos
@@ -83,7 +83,6 @@ destinatarios = [
     {"nome": "Elaine Miguel Delvivo Farao", "email": "elainebiofis@yahoo.com.br"},
     {"nome": "Elaine Miguel Delvivo Farao", "email": "elaine.delvivo@ufms.br"},
     {"nome": "Elaine Miguel Delvivo Farao", "email": "elainemiguel@ufj.edu.br"},
-    {"nome": "Arthur", "email": "arthurthegreatking19@gmail.com"},
 
 ]
 
